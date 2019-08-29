@@ -2,9 +2,9 @@
 #
 # [Quick LEMP install Server Script]
 #
-# GitHub:   https://github.com/Thamaraiselvam/quick-lemp-install
-# Author:   Thamaraiselvam
-# URL:      https://thamaraiselvam.com
+# GitHub:   https://github.com/kirubha7/quick-lemp-install
+# Author:   Kirubhakaran
+
 #
 
 
@@ -26,7 +26,7 @@ sudo apt-get -y install mysql-server
 
 #install Mysql server
 echo -e "\nInstalling PHP-FPM and Mysql extension for PHP...\n"
-sudo apt-get -y install php7.0-fpm php-mysql
+sudo apt-get -y install php7.2-fpm php-mysql
 
 #Move nginx conf file to enable php support on ngnix
 echo -e "\nMoving Nginx configuration file...\n"
