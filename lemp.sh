@@ -2,11 +2,8 @@
 #
 # [Quick LEMP install Server Script]
 #
-# GitHub:   https://github.com/kirubha7/quick-lemp-install
+# GitHub:   https://github.com/kirubha7/lemp-stack-installer
 # Author:   Kirubhakaran
-
-#
-
 
 #updating packages
 echo -e "\nUpdating package lists..\n"
