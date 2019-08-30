@@ -26,8 +26,8 @@ echo -e "\nInstalling PHP-FPM and Mysql extension for PHP...\n"
 sudo apt-get -y install php7.2-fpm php-mysql
 sudo apt-get install php7.2-mbstring 
 sudo apt-get install php7.2-xml
-sudo apt install unzip
-sudo apt install zip
+sudo apt-get install unzip
+sudo apt-get install zip
 sudo fallocate -l 2G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
