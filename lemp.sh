@@ -24,6 +24,10 @@ sudo apt-get -y install mysql-server
 #install Mysql server
 echo -e "\nInstalling PHP-FPM and Mysql extension for PHP...\n"
 sudo apt-get -y install php7.2-fpm php-mysql
+sudo apt-get install php7.2-mbstring 
+sudo apt-get install php7.2-xml
+sudo apt install unzip
+sudo apt install zip
 
 #Move nginx conf file to enable php support on ngnix
 echo -e "\nMoving Nginx configuration file...\n"
