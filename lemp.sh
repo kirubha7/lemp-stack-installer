@@ -28,6 +28,10 @@ sudo apt-get install php7.2-mbstring
 sudo apt-get install php7.2-xml
 sudo apt install unzip
 sudo apt install zip
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
 
 #Move nginx conf file to enable php support on ngnix
 echo -e "\nMoving Nginx configuration file...\n"
