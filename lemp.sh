@@ -21,7 +21,7 @@ sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password passwor
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 sudo apt-get -y install mysql-server
 
-#install Mysql server
+#install Php
 echo -e "\nInstalling PHP-FPM and Mysql extension for PHP...\n"
 sudo apt-get -y install php7.2-fpm php-mysql
 sudo apt-get install php7.2-mbstring 
