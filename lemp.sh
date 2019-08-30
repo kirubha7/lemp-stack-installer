@@ -37,8 +37,6 @@ sudo swapon /swapfile
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get install python-certbot-nginx
 
-
-
 #Move nginx conf file to enable php support on ngnix
 echo -e "\nMoving Nginx configuration file...\n"
 sudo mv default /etc/nginx/sites-available
