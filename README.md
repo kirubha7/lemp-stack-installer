@@ -12,7 +12,7 @@ Steps:
 
 That's it :)
 
-PHP version - v7.0
+PHP version - v8.0
 
 Mysql version - Latest Stable
 
