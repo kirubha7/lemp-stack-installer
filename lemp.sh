@@ -23,9 +23,9 @@ sudo apt-get -y install mysql-server
 
 #install Php
 echo -e "\nInstalling PHP-FPM and Mysql extension for PHP...\n"
-sudo apt-get -y install php8-fpm php-mysql
-sudo apt-get install php8-mbstring 
-sudo apt-get install php8-xml
+sudo apt-get -y install php8.0-fpm php-mysql
+sudo apt-get install php8.0-mbstring 
+sudo apt-get install php8.0-xml
 sudo apt-get install unzip
 sudo apt-get install zip
 sudo fallocate -l 2G /swapfile
